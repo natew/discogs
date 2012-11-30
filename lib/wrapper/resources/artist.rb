@@ -11,7 +11,8 @@ class Discogs::Artist < Discogs::Resource
                 :namevariations,
                 :aliases,
                 :members,
-                :releases
+                :releases,
+                :profile
 
   def main_releases
     filter_releases("Main")
